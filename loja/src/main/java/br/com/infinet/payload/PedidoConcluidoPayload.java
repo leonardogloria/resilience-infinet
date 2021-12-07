@@ -9,4 +9,5 @@ import lombok.Data;
 @Builder
 public class PedidoConcluidoPayload {
 	private String uuid;
+	private Double valorImposto;
 }
