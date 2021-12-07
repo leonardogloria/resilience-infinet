@@ -1,0 +1,13 @@
+package br.com.infinet.service.impl;
+
+import br.com.infinet.service.ImpostoService;
+
+public class ImpostoServiceImpl implements ImpostoService {
+
+	@Override
+	public Double getImposto(Double valor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

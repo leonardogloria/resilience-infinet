@@ -1,0 +1,6 @@
+package br.com.infinet.payload;
+
+public class ImpostoPayload {
+	private String valorImposto;
+
+}

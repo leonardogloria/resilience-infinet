@@ -1,0 +1,17 @@
+package br.com.infinet.service.impl;
+
+
+import org.springframework.beans.factory.annotation.Value;
+
+import br.com.infinet.service.ImpostoService;
+
+public class ImpostoServiceImpl implements ImpostoService {
+	@Value(value = "server.delay")
+	Long delay;
+	@Override
+	public Double getImposto(Double valor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
