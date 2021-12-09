@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console.enabled: true
+  datasource:
+    url: jdbc:h2:file:/Users/leonardogloria/Documents/Projetos/infinet/aula7/data
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 8083

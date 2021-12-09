@@ -12,6 +12,7 @@ public class ImpostoServiceImpl implements ImpostoService {
 	Long delay;
 	@Override
 	public Double getImposto(Double valor)  {
+		
 		Double valorImposto = (valor * 1.3) - valor;
 		try {
 			Thread.sleep(delay);
